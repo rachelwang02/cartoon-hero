@@ -1,0 +1,55 @@
+
+header{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 115px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    line-height: 30px;
+    color: white;
+    background-color: lightblue;
+}
+
+main{
+    /* max-width: keeps all the text within an 800pixel width so that its not touching the edge of the screen */
+    max-width: 800px;
+    /* margin: 0 auto; centers the text so that its not touching the edge of the screen, but keeps text flush on left margin. */
+    margin: 0 auto; 
+}
+
+main img{
+    max-width: 100%;
+    border-radius: 700px;
+    border: 10px solid  #5DC8C0;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #5DC8C0;
+}
+
+footer{
+    background-color: #5DC8C0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    text-align: center;
+}
+
+p.caption{
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    text-align: right;
+}
